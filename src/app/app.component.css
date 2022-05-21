@@ -5,7 +5,9 @@ p {
 
 .container {
   position: relative;
-  width: 100vw;
+  resize:both;
+  overflow:auto; /* something other than visible */
+  width: 90vw;
   height: auto;
   background-color: aquamarine;
   display: flex;
@@ -29,7 +31,9 @@ p {
 
 .container-b {
   position: relative;
-  width: 100vw;
+  resize:both;
+  overflow:auto; /* something other than visible */
+  width: 90vw;
   height: auto;
   background-color: aquamarine;
 }
