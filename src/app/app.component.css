@@ -1,0 +1,46 @@
+p {
+  font-family: Lato;
+}
+
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  position: relative;
+  min-width:100px;
+  width: 100px;
+  height: 100px;
+  padding: 1em;
+  background-color: black;
+  margin: 10px;
+}
+
+.space {
+  height: 3em;
+}
+
+.container-b {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  background-color: aquamarine;
+}
+
+.item-b {
+  position: relative;
+  min-width: 100px;
+  width: 100px;
+  height: 100px;
+  padding: 1em;
+  background-color: black;
+  display: inline-block;
+  margin: 10px;
+}
